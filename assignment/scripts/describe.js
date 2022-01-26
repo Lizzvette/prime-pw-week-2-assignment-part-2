@@ -26,8 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We make a variable called name and set it to / assign to string Dane.
+// Then create a conditional of variable name strictly equal to variable Mary. 
+// If true console.log Mary. Else console.log, "How do you do".
+// Console.log would be, "How do you do?".
 // 
 //
 
@@ -45,10 +47,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret not assigned a value. And another variable called code with assigned value 123.
+// We create conditional if statements. 1.) If condition of variable value code is strictly equal to code then secret value is 'super' and code 
+// value is code * 2 (which is 246). Or 2.) If code variable is greater than 250 then secret is assigned value, 'duper'.
+// We console.log secret and receive 'super'.
+
 
 //CODE
 /*
@@ -70,10 +73,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent assigned to Boolean true, another variable called age set to number 34, and last variable called zip set to
+// number 55407.
+
+// Then set up conditional of if/ and two else if/ else. Condition one is checking if variable isStudent strict equality to boolean true AnD
+// We check if number is greater than or equal to 2. 2 is equal to 2, so
+// we console.log 'yes'.
 
 //CODE
 /*
