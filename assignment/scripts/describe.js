@@ -76,9 +76,11 @@ console.log(secret)
 // We make a variable called isStudent assigned to Boolean true, another variable called age set to number 34, and last variable called zip set to
 // number 55407.
 
-// Then set up conditional of if/ and two else if/ else. Condition one is checking if variable isStudent strict equality to boolean true AnD
-// We check if number is greater than or equal to 2. 2 is equal to 2, so
-// we console.log 'yes'.
+// Then set up conditional of if/ and two else if/ else. Condition one is checking if variable isStudent strict equality to boolean true AND
+// if zip is greater than 55407 then console.log "You're a student on the west Coast".
+// Otherwise (else if) isStudent false OR less than 30 (which variables indicate not) then console.log "What are your hobbies".
+// Else if isStudent true (which variable is set to true) then console.log "Welcome to Prime".
+// Else all conditions not correct then code would console log "How about the weather".
 
 //CODE
 /*
@@ -97,9 +99,6 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -129,13 +128,13 @@ if (number >= 2) {
 */
 
 
-
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
 let colorOne = 'red';
+FIX - variables value swap:    colorOne = 'blue'     and colorTwo = 'red'.
 let colorTwo = 'blue';
 let mix = true;
 
@@ -155,6 +154,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+FIX - THE OPERATOR || to  &&. 
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -164,7 +164,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+FIX - if (minAge >= age) {  to check if age is greater than or equal to minAge.
 if(minAge <= age) {
   console.log('no entry');
 } else {
